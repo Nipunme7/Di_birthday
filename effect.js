@@ -192,6 +192,7 @@ $('document').ready(function () {
 	$('#story').click(function () {
 		$(this).fadeOut('slow');
 		$('.cake').fadeOut('fast').promise().done(function () {
+			$('body').addClass('message-active');
 			$('.message').fadeIn('slow', function () {
 				// Show images when messages start displaying - set display to flex for side-by-side layout
 				$('.message-images').css({ display: 'flex', opacity: 0 }).animate({ opacity: 1 }, 'slow');
