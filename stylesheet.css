@@ -1572,14 +1572,14 @@ o @keyframes bannar_come {
 
 .message p {
 	font-family: 'Signika', sans-serif;
-	font-size: 20px;
+	font-size: 28px;
 	text-transform: uppercase;
 	color: #C4515C;
 	text-shadow: 2px 2px 2px #FFF;
 	display: none;
 	font-weight: bold;
 	position: absolute;
-	top: 25%;
+	top: 30%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	z-index: 1;
@@ -1591,7 +1591,7 @@ o @keyframes bannar_come {
 .message-images {
 	display: none;
 	position: absolute;
-	top: 55%;
+	top: 42%;
 	left: 50%;
 	transform: translateX(-50%);
 	flex-direction: row;
@@ -1635,15 +1635,15 @@ o @keyframes bannar_come {
 	}
 	
 	.message p {
-		font-size: 16px;
-		top: 20%;
+		font-size: 20px;
+		top: 25%;
 	}
 	
 	.message-images {
 		flex-direction: row;
 		gap: 8px;
 		flex-wrap: wrap;
-		top: 50%;
+		top: 40%;
 		max-width: 90%;
 	}
 	
